@@ -1,0 +1,70 @@
+body{
+  background-image: url("projet/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Open Sans;
+  background-position: center;
+}
+/*HEADER*/
+header nav {
+   text-align: center;
+   padding-bottom: 2%;
+}
+
+header nav ul {
+    display: inline-block;
+    width: 100%;
+    font-size: 90%;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0 2% 0 2%;
+
+
+}
+
+header nav ul li a {
+     display: inline-block;
+     text-decoration: none;
+     color: black;
+     color: #adadad;
+}
+header nav ul li a:hover{
+color: white;
+
+}
+
+h1 {
+font-size: 400%;
+text-align: center;
+margin-top: 10%;
+font-weight: 300;
+}
+
+h2{
+  text-align: left;
+  font-size: 130%;
+  text-transform: uppercase;
+  margin-top: -4%;
+  color:white;
+}
+
+h3{
+text-transform: uppercase;
+}
+
+#video_home {
+  padding-top: 20%;
+}
+
+p.sous_titre{
+  text-align: center;
+  color: #adadad;
+}
+
+.right {
+  float: right;
+  color: #adadad;
