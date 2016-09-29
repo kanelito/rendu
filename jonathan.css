@@ -1,0 +1,119 @@
+.container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  color: white;
+}
+
+body{
+
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 15px;
+  font-family: Open Sans;
+  background-position: center;
+  background-blend-mode: soft-light;
+  background-color: #333;
+}
+/*header*/
+header nav {
+   text-align: center;
+   padding-bottom: 2%;
+}
+
+header nav9 ul {
+    display: inline-block;
+    width: 100%;
+    font-size: 90%;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0 2% 0 2%;
+
+
+}
+
+header nav ul li a {
+     display: inline-block;
+     text-decoration: none;
+     color: black;
+     color: #adadad;
+}
+header nav ul li a:hover{
+color: white;
+
+}
+
+h1 {
+font-size: 400%;
+text-align: center;
+margin-top: 10%;
+font-weight: 300;
+}
+
+h2{
+  text-align: left;
+  font-size: 130%;
+  text-transform: uppercase;
+  margin-top: -4%;
+  color:white;
+}
+
+h3{
+text-transform: uppercase;
+}
+
+#video_home {
+  padding-top: 20%;
+}
+
+p.sous_titre{
+  text-align: center;
+  color: #adadad;
+}
+
+.right {
+  float: right;
+  color: #adadad;
+  padding-right: 5%;
+  /*padding-bottom: 15%;*/
+}
+
+td.article1{
+  width: 30%;
+}
+
+
+
+/*footer*/
+
+#icons{
+  justify-content: space-between;
+}
+
+footer ul {
+  text-align: center;
+  vertical-align: middle;
+  padding-right: 6%;
+}
+
+footer ul li {
+  /*display: inline-block;*/
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+
+#credits {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
