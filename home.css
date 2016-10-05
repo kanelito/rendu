@@ -1,5 +1,5 @@
 body {
-  background-image: url("./images/background.jpg");
+  background-image: url("images/background.jpg");
   background-size: cover;
   background-attachment: fixed;
   font-family:"Open Sans";
@@ -11,7 +11,20 @@ body {
   background-color: #333;
 }
 
-/*HEADER*/
+#main {
+  width: 80%;
+  margin: auto;
+}
+
+#main h2 {
+  color: #fff;
+  font-weight: bold;
+}
+
+a:link, a:visited {
+  color: #adadad;
+}
+
 header {
   width: 80%;
   margin: auto;
@@ -76,52 +89,6 @@ header p {
   padding-bottom: 200px;
 }
 
-#main {
-  width: 80%;
-  margin: auto;
-}
-
-#main h2 {
-  color: #fff;
-  font-weight: bold;
-}
-
-a:link, a:visited {
-  color: #adadad;
-}
-
-/*PHOTO*/
-#photo {
-  width: 102%;
-}
-#photo-ligne-1 {
-  display: inline-block;
-}
-#colonne-2 {
-  width: 33%;
-  display: inline-block;
-}
-
-#img9 {
-  display: inline-block;
-}
-
-#img4, #img5 {
-  float: right;
-  display: block;
-}
-
-.img07 {
-  width: 40.5%;
-}
-.img08 {
-  width: 40.2%;
-}
-.img09 {
-  width: 65%;
-}
-
-/*FOOTER*/
 footer {
   width: 80%;
   margin: auto;
@@ -132,19 +99,6 @@ footer ul li a:visited, footer ul li a:link{
   color: white;
 }
 
-#tableau_footer {
-  vertical-align: middle;
-  width: 100%;
-  height: 420px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin: 0 auto;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  border-color: rgb(173, 173, 173);
-  border-color: rgba(173, 173, 173, 0.4);
-}
-
 .article1, .article2, .article3 {
   display: inline-block;
   text-align: left;
@@ -152,13 +106,10 @@ footer ul li a:visited, footer ul li a:link{
   width: 30%;
 }
 
-.article1 {
-  padding-right: 50px;
-}
-
 .article3 {
   padding-left: 35px;
 }
+
 
 #tableau_footer h3 {
   color: white;
@@ -168,20 +119,13 @@ footer ul li a:visited, footer ul li a:link{
   font-size: 15px;
 }
 
-.article_footer time{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
 footer ul {
   text-align: center;
   vertical-align: middle;
   padding-top: 20px;
 }
+
 footer ul li {
-  display: inline;
   text-align: center;
   vertical-align: middle;
   color: white;
@@ -197,4 +141,15 @@ footer ul li {
   font-family: sans-serif;
   font-size: 12px;
   font-weight: bold;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  list-style: none;
+
 }

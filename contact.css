@@ -1,5 +1,5 @@
 body {
-  background-image: url("./images/background.jpg");
+  background-image: url("images/background.jpg");
   background-size: cover;
   background-attachment: fixed;
   font-family:"Open Sans";
@@ -7,8 +7,32 @@ body {
   width: 100%;
   font-size: 15px;
   letter-spacing: 1px;
-  background-blend-mode: soft-light;
-  background-color: #333;
+}
+
+#main {
+  width: 80%;
+  margin: auto;
+}
+
+#main h2 {
+  color: #fff;
+  font-weight: bold;
+}
+
+#titre_page{
+  padding-top: 0;
+}
+
+#sous_titre_page{
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-top: 100px;
+  padding-bottom: 0;
+}
+
+a:link, a:visited {
+  color: #adadad;
 }
 
 /*HEADER*/
@@ -76,49 +100,84 @@ header p {
   padding-bottom: 200px;
 }
 
-#main {
-  width: 80%;
-  margin: auto;
+/*CONTACT */
+
+#tableau_contact {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
 }
 
-#main h2 {
+#tableau_contact a {
+  text-decoration: none;
+}
+
+#article_contact {
+  display: inline-block;
+  width: 29.5%;
+}
+
+.formulaire p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+/*input, textarea {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid;
+  border-color: rgba(173, 173, 173, 0.4);
+  color: #fff;
+}*/
+
+.h_form {
+  font-weight: bold;
+  color: #B9B9B9;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 570px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.submit {
+  width: 115px;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #B9B9B9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#search {
+  color: #adadad;
+  padding-left: 10px;
+}
+
+article h3, article h4 {
   color: #fff;
   font-weight: bold;
 }
 
-a:link, a:visited {
-  color: #adadad;
+article h3 {
+  margin-top: 50px;
 }
 
-/*PHOTO*/
-#photo {
-  width: 102%;
-}
-#photo-ligne-1 {
-  display: inline-block;
-}
-#colonne-2 {
-  width: 33%;
-  display: inline-block;
+article h4 {
+  margin-top: 30px;
 }
 
-#img9 {
-  display: inline-block;
-}
-
-#img4, #img5 {
-  float: right;
-  display: block;
-}
-
-.img07 {
-  width: 40.5%;
-}
-.img08 {
-  width: 40.2%;
-}
-.img09 {
-  width: 65%;
+time {
+  font-size: 11px;
 }
 
 /*FOOTER*/
@@ -158,21 +217,6 @@ footer ul li a:visited, footer ul li a:link{
 
 .article3 {
   padding-left: 35px;
-}
-
-#tableau_footer h3 {
-  color: white;
-  text-align: left;
-  padding-bottom: 20px;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.article_footer time{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-  text-transform: uppercase;
-  font-size: 12px;
 }
 
 footer ul {
