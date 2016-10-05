@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/background.jpg");
+  background-image: url("./images/background.jpg");
   background-size: cover;
   background-attachment: fixed;
   font-family:"Open Sans";
@@ -9,32 +9,6 @@ body {
   letter-spacing: 1px;
   background-blend-mode: soft-light;
   background-color: #333;
-}
-
-#main {
-  width: 80%;
-  margin: auto;
-}
-
-#main h2 {
-  color: #fff;
-  font-weight: bold;
-}
-
-#titre_page{
-  padding-top: 0;
-}
-
-#sous_titre_page{
-  font-size: 22px;
-  font-weight: bold;
-  color: white;
-  margin-top: 100px;
-  padding-bottom: 0;
-}
-
-a:link, a:visited {
-  color: #adadad;
 }
 
 /*HEADER*/
@@ -102,49 +76,67 @@ header p {
   padding-bottom: 200px;
 }
 
-/*CONTACT */
-#tableau_contact {
-  display: inline-block;
-  width: 65%;
-  vertical-align: top;
+#main {
+  width: 80%;
+  margin: auto;
 }
 
-#tableau_contact a {
-  text-decoration: none;
-}
-
-#article_contact {
-  display: inline-block;
-  width: 30%;
-}
-
-input {
-  width: 300px;
-  height: 40px;
-  margin-bottom: 10px;
-}
-
-textarea {
-  width: 570px;
-  height: 200px;
-  margin-bottom: 10px;
-}
-
-.submit {
-  width: 115px;
-  height: 40px;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
-  color: #B9B9B9;
-  text-transform: uppercase;
+#main h2 {
+  color: #fff;
   font-weight: bold;
 }
 
-#search {
+a:link, a:visited {
   color: #adadad;
-  padding-left: 10px;
 }
+
+h1{
+  font-size: 10%;
+}
+/*TOUR*/
+#tour h1 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#tour h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+#tour h1 a:hover {
+  background-color: rgba(255,255,255,0.05);
+}
+
+.espace {
+  margin: 10px 10px 10px 10px;
+}
+
+#tour p {
+  padding: 30px 0px 30px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lignefus {
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.tableau_upcoming{
+  width: 100%;
+}
+
+.ville{
+  width: 50%;
+}
+
+.date{
+  width: 15%;
+}
+
 
 /*FOOTER*/
 footer {
@@ -183,6 +175,21 @@ footer ul li a:visited, footer ul li a:link{
 
 .article3 {
   padding-left: 35px;
+}
+
+#tableau_footer h3 {
+  color: white;
+  text-align: left;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.article_footer time{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 footer ul {

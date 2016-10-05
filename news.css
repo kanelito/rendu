@@ -2,14 +2,39 @@ body {
   background-image: url("images/background.jpg");
   background-size: cover;
   background-attachment: fixed;
-  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:"Open Sans";
   color: #adadad;
   width: 100%;
-  /*margin: 0 auto;*/
   font-size: 15px;
   letter-spacing: 1px;
   background-blend-mode: soft-light;
   background-color: #333;
+}
+
+#main {
+  width: 80%;
+  margin: auto;
+}
+
+#main h2 {
+  color: #fff;
+  font-weight: bold;
+}
+
+#titre_page{
+  padding-top: 0;
+}
+
+#sous_titre_page{
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-top: 100px;
+  padding-bottom: 0;
+}
+
+a:link, a:visited {
+  color: #adadad;
 }
 
 /*HEADER*/
@@ -63,54 +88,62 @@ header h1 {
   margin-bottom: -10px;
   font-size: 70px;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-weight: lighter;
   letter-spacing: 7px;
 
 }
 
 header p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   text-align: center;
   vertical-align: middle;
   letter-spacing: 2px;
   padding-bottom: 200px;
 }
 
-#main {
+/* NEWS */
+
+#news {
+  display: inline-block;
   width: 80%;
-  margin: auto;
 }
 
-#main h2 {
-  color: #fff;
-  font-weight: bold;
+.latestnews {
+  display: inline-block;
+  width: 20%;
 }
 
-a:link, a:visited {
-  color: #adadad;
+.latestnews h4 {
+  color:white;
 }
 
-/* VIDEOS */
- #tbleVideos tr td {
-   color: white;
-   font-weight: bold;
-   padding-bottom: 10px;
- }
+#page1news  {
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 50%;
+  height: 30px;
+  padding-top: 5px;
+  border: 1px #595959 solid;
+  color: #FFFFFF;
+  background-color: #595959;
+  text-align: center;
+}
 
- #tbleVideos {
-   padding-bottom: 50px;
- }
+#page2news  {
+  display: inline-block;
+  width: 50%;
+  height: 30px;
+  padding-top: 5px;
+  border: 1px #595959 solid;
+  color: #FFFFFF;
+  text-align: center;
+}
 
- #tbleVideos tr td img {
-   width: 340px;
-   height: 190px;
-   padding-bottom: 10px;
- }
-
- #Photo6 {
-   padding-top: 24px;
- }
+#final {
+  border-bottom: 1px solid;
+  padding-bottom: 40px;
+}
 
 /*FOOTER*/
 footer {
@@ -149,21 +182,6 @@ footer ul li a:visited, footer ul li a:link{
 
 .article3 {
   padding-left: 35px;
-}
-
-#tableau_footer h3 {
-  color: white;
-  text-align: left;
-  padding-bottom: 20px;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.article_footer time{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-  text-transform: uppercase;
-  font-size: 12px;
 }
 
 footer ul {
